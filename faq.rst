@@ -6,7 +6,7 @@ FAQ
 
 Is Conan CMake based, or is CMake a requirement?
 ------------------------------------------------
-No, it isnt. Conan is build-system agnostic. Package creators could probably use it to create
+No, it isn't. Conan is build-system agnostic. Package creators could probably use it to create
 their packages. You will only need CMake if you want to build packages from source, or you need
 to, cause there are no available packages for your system/settings. We use CMake extensively
 in our examples and documentation, but because it is very convenient and most C/C++ devs are
@@ -24,7 +24,7 @@ Does it run offline?
 --------------------
 Yes, it runs offline very smoothly. Binary packages are stored in your machine, per user, so
 you can start new projects that depends on the same libraries without any connection at all.
-Packages can be fully createad and tested locally, prior uploading them to the desired server.
+Packages can be fully created and tested locally, prior uploading them to the desired server.
 
 Can I run conan server behind the firewall (in-house)?
 ------------------------------------------------------
